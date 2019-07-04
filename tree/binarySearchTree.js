@@ -105,7 +105,7 @@ class BST {
           return node.left;
         }
         // node has two children
-        var tempNode = node.right;
+        let tempNode = node.right;
         while (tempNode.left !== null) {
           tempNode = tempNode.left;
         }
